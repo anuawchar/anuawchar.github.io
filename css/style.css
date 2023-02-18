@@ -4,15 +4,14 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
-
-
+body,
+html {
+    font-family: 'Labrada', serif;
+    scroll-behavior: smooth;
 }
 
 a {
     text-decoration-style: none;
-
 }
 
 ul {
@@ -20,8 +19,8 @@ ul {
 }
 
 img {
-    width: 100%;
-
+    width: 30%;
+    border-radius: 100%;
 }
 
 /* global classes */
@@ -153,5 +152,93 @@ header .nav-logo span {
 }
 
 .hero img {
-    width: 300px;
+    width: 500px;
+    border-radius: 100%;
+
+}
+
+@media and (max-width: 992px; ) {
+    .hero h1 {
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 2rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+}
+
+@media screen and(max-width: 540px; ) {}
+
+/* Stayling about section */
+.about .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.about .content {
+    max-width: 600px;
+    display: grid;
+    gap: 1rem;
+}
+
+.about .content h2 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+
+.about .content h2 span {
+    color: #7700ff;
+}
+
+.about .content .btn {
+    margin-top: 1rem;
+}
+
+@media screen and(max-width: 768px) {
+    .about {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    .about .image {
+        display: none;
+    }
+}
+
+/* styling skills */
+.skills .container {
+    display: grid;
+    gap: 2rem;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.skills h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    border-bottom: 5px solid #7700ff;
+    width: fit-content;
+    margin: auto;
+}
+
+.skills .skills-wrapper span {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.skills .skills-wrapper i {
+    font-size: 0.5rem;
+}
+
+@media screen and(max-width:768) {
+    .skills .skills-wrapper span {
+        font-size: 1.5rem;
+    }
 }
