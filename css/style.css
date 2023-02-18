@@ -21,6 +21,7 @@ ul {
 
 img {
     width: 100%;
+
 }
 
 /* global classes */
@@ -46,6 +47,11 @@ img {
     border-radius: 5px;
     width: fit-content;
     font-weight: 500;
+}
+
+.btn.btn-secondary {
+    background: #e4ccff;
+    color: #7700ff;
 }
 
 header {
@@ -97,6 +103,7 @@ header .nav-logo span {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-height: 100vh;
 }
 
 .hero h1 {
@@ -143,4 +150,8 @@ header .nav-logo span {
 
 .hero .icon-wrapper a:hover {
     background: #7700ff;
+}
+
+.hero img {
+    width: 300px;
 }
