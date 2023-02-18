@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration-style: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 100%
+}
+
+/* global classes */
+.container {
+    max-width: 1200;
+    margin-top: auto;
+    padding-left: 1rem;
+    padding-right: 20px;
+}
+
+/* Stayling Navigation */
+header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0, 0.2);
+    background-color: white;
+}
+
+header .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    font-weight: 500;
+}
+
+header nav ul a {
+    color: #1b1b1b;
+
+}
+
+header nav ul a:hover {
+    color: #17700ff;
+    text-decoration: underline;
+}
+
+header .nav-logo span {
+    color: #7700ff;
+}
+
+@media screen and (max-width: 786px) {
+    header nav ul {
+        display: none;
+    }
+}
