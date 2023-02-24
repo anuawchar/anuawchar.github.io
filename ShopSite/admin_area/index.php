@@ -54,7 +54,7 @@
             <div class="col-md-12 bg-secondary p-1 d-flex align-items-center">
                 <div class="px-5">
                     <a href="#"><img src="../images/jacket.JPEG" alt="" class="admin_image"></a>
-                    <p class="text-light text-center">Admin Name</p>
+                    
                 </div>
                 <div class="button text-center">
                     <button class="my-3"><a href="" class="nav-link text-light bg-info my-1">Insert Products</a></button>

@@ -5,6 +5,6 @@
 </div>
 <div class="input-group w-10 mb-2">
   <!--<input type="submit" class="form-control bg-info" name="insert_cat" value="Insert Categories">-->
-  <button class="bg-info p-2 my-3 border-0">Insert Categories</button>
+  <button class="bg-info p-2 my-3 border-0">Insert Categoriesssss</button>
 </div>
 </form>
