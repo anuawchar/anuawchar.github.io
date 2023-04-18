@@ -18,6 +18,15 @@ ul {
     list-style-type: none;
 }
 
+.hero img {
+    width: 65%;
+    height: 30%;
+    border-radius: 30rem;
+    opacity: 1;
+    filter: grayscale(20%);
+    margin-left: 45%;
+}
+
 img {
     width: 75%;
     height: 50%;
@@ -25,6 +34,9 @@ img {
     opacity: 1;
     filter: grayscale(20%);
 }
+
+
+
 
 /* global classes */
 .container {
@@ -338,8 +350,95 @@ header .nav-logo span {
     font-weight: 300;
 }
 
+.hero1 img {
+    width: 65%;
+    height: 30%;
+    border-radius: 30rem;
+    opacity: 1;
+    filter: grayscale(20%);
+
+}
+
 .weak .weak-wrapper i {
     font-size: 0.5rem;
+}
+
+
+/* Styling Hero1 Section */
+.hero1 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.hero1 h1 {
+    font-size: 3rem;
+    line-height: 100%;
+}
+
+.hero1 h1 span {
+    display: block;
+    color: #7700ff;
+}
+
+.hero1 h2 {
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+    font-weight: 500;
+}
+
+.hero1 .btn-wrapper {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.hero1 .icon-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.hero1 .icon-wrapper a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-content: center;
+    background: #1b1b1b;
+    color: white;
+    border-radius: 100%;
+    margin-right: 0.5rem;
+}
+
+.hero1 .icon-wrapper a:hover {
+    background: #7700ff;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .hero1 .container {
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 2rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .hero1 img {
+        border-radius: 50%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .hero1 h1 {
+        font-size: 2.5rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
